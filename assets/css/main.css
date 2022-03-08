@@ -3879,6 +3879,16 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 /* Main */
+.read-more {
+  display: none;
+}
+.read-more-open {
+  display: inline;
+}
+.read-more-btn {
+  cursor: pointer;
+  color: #18bfef;
+}
 
 #main {
   background-color: #ffffff;
@@ -4084,6 +4094,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 480px) {
   #main {
     width: 100%;
+  }
+  .downarrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
   }
 }
 
